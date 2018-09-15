@@ -3,6 +3,7 @@
 # Reference:
             # QUANDL API: https://docs.quandl.com/docs/in-depth-usage
 			# https://github.com/bev-a-tron/MyFlaskTutorial
+			# http://virantha.com/2013/11/14/starting-a-simple-flask-app-with-heroku/
             # http://bokeh.pydata.org/en/latest/docs/gallery/stocks.html
             # https://bokeh.pydata.org/en/latest/docs/user_guide/embed.html
             # http://biobits.org/bokeh-flask.html

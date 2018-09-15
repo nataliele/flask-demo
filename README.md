@@ -24,10 +24,11 @@ A [finished example](https://lemurian.herokuapp.com) that demonstrates some basi
   The advantages of conda include easier virtual environment management and fast package installation from binaries (as compared to the compilation that pip-installed packages sometimes require).
   One disadvantage is that binaries take up a lot of memory, and the slug pushed to Heroku is limited to 300 MB. Another note is that the conda buildpack is being deprecated in favor of a Docker solution (see [docker branch](https://github.com/thedataincubator/flask-framework/tree/docker) of this repo for an example).
 
-# used $ heroku create nl-12day
-# put only necessary packages in requirements.txt and removed conda-requirements.txt
-# using conda-buildpack resulted in error about pip  --allow-all-external
-# might need to delete the app and create new one
+### Note:
+used $ heroku create nl-12day
+put only necessary packages in requirements.txt and removed conda-requirements.txt
+using conda-buildpack resulted in error about pip  --allow-all-external
+might need to delete the app and create new one
 
   
 - Deploy to Heroku: `git push heroku master`
