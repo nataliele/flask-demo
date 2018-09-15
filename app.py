@@ -18,7 +18,7 @@
 
 from flask import Flask, render_template, request, redirect
 import requests
-import simplejson
+# import simplejson
 import pandas as pd
 from bokeh.plotting import figure, reset_output
 from bokeh.models import HoverTool
