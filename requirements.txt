@@ -19,7 +19,6 @@ cytoolz==0.8.2
 decorator==4.3.0
 dill==0.2.7.1
 docutils==0.14
-en-core-web-md==2.0.0
 entrypoints==0.2.3
 Flask==1.0.2
 future==0.16.0
